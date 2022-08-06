@@ -49,9 +49,9 @@ Author: Luke Change (xcha011@aucklanduni.ac.nz)
 Date: 23/07/2022
 """
 
-import random
 
 import numpy as np
+
 import random
 
 MESSAGE = """Press "A" to get a random integer.
