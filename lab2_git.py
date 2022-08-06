@@ -52,7 +52,7 @@ Date: 23/07/2022
 import random
 
 import numpy as np
-
+import random
 
 MESSAGE = """Press "A" to get a random integer.
 Press "B" to toss a coin.
@@ -70,10 +70,7 @@ def get_factorial(value: int):
 
 def get_rand():
     '''Returns a random integer.'''
-    """TODO: Add your code here 
-        Hint: Using random.randint() function.
-    """
-    my_randint = 0
+    my_randint = random.randint(1, 50)
     return my_randint
 
 
